@@ -104,3 +104,24 @@ ul li span{
 ul li span{
     background: #edeef0;
 }
+
+@media (max-width:768px){
+    button {
+        border: none;
+        outline: none;
+        padding: 11px 16px;
+        background: #ff5945;
+        color: #fff;
+        font-size: 11px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+    ul li {
+        list-style: none;
+        font-size: 13px;
+        padding: 12px 8px 12px 50px;
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+    }
+}
